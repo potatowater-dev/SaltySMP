@@ -1,0 +1,41 @@
+default-paid-cooldown: 24h
+permission-prefix: saltkits.kit.
+
+# Kept for compatibility; claims are always refused when the kit would not fit
+warn-on-full-inventory: true
+claim-title-enabled: true
+chat-input-timeout-seconds: 30
+# Right-click in /kit menu and /kit preview:
+# CUSTOMIZE = rearrange layout only (allowed on cooldown; close does not give items)
+# PREVIEW = look only
+claim-gui-mode: CUSTOMIZE
+
+sounds:
+  claim-success: ENTITY_PLAYER_LEVELUP
+  claim-denied: BLOCK_NOTE_BLOCK_BASS
+  menu-click: UI_BUTTON_CLICK
+  claim-success-volume: 1.0
+  claim-success-pitch: 1.2
+  claim-denied-volume: 0.8
+  claim-denied-pitch: 0.5
+  menu-click-volume: 0.5
+  menu-click-pitch: 1.0
+
+# /kit cleanup — remove listed blocks from listed regions
+block-cleanup:
+  blocks-per-tick: 4000
+  # FLOWING_WATER is treated as WATER on 1.21
+  blocks:
+    - WATER
+    - COBWEB
+    - OAK_PLANKS
+  regions:
+    spawn:
+      world: world
+      worldguard: spawn
+    # example cuboid (delete or edit):
+    # arena:
+    #   world: world
+    #   min: 0,64,0
+    #   max: 100,80,100
+

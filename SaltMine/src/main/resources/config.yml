@@ -1,0 +1,17 @@
+# Minutes between full mine resets (entire region is regenerated)
+# Change for all mines with: /mine settime <minutes>
+reset-interval-minutes: 15
+# Max blocks placed per server tick during a reset (lower = less lag)
+blocks-per-tick: 500
+# Master switch for reset announcements (per-mine: /mine broadcast <id> ...)
+announce-resets: true
+# If true, players can only break blocks inside configured mines
+cancel-break-outside-mines: false
+
+wand:
+  material: GOLDEN_AXE
+  name: "<gold><bold>Mine Wand"
+  lore:
+    - "<gray>Left-click: corner 1"
+    - "<gray>Right-click: corner 2"
+    - "<gray>Then /mine setregion <id>"

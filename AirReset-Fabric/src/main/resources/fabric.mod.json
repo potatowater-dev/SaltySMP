@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "airreset",
+  "version": "${version}",
+  "name": "AirReset",
+  "description": "Client-side wind-charge fall reset. Toggle in Mod Menu. Empty server whitelist means off everywhere.",
+  "authors": [
+    "_potatowater"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.potatowater.airreset.AirResetClient"
+    ],
+    "modmenu": [
+      "com.potatowater.airreset.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "airreset.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

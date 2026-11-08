@@ -1,0 +1,13 @@
+prefix: "<gray>[<aqua>Newbie<gray>] <dark_gray>: "
+
+activated: "{prefix}<green>Protection active for <yellow>2h<green>. PvP disabled; pickup rules apply."
+already-active: "{prefix}<yellow>You already have protection for <white>{time}<yellow>."
+status-active: "{prefix}<white>Protection active for <yellow>{time}<white>."
+status-none: "{prefix}<red>You do not have newbie protection."
+removed: "{prefix}<green>Protection removed."
+remove-confirm: "{prefix}<yellow>Run <white>/newbie remove<yellow> again within <white>30s<yellow> to confirm."
+remove-expired: "{prefix}<red>Confirmation expired. Run <white>/newbie remove<red> again."
+pickup-denied: "{prefix}<red>You cannot pick that up during newbie protection."
+no-permission: "{prefix}<red>You do not have permission."
+players-only: "{prefix}<red>Only players can use this."
+usage: "{prefix}<red>Usage: <white>/newbie<red>, <white>/newbie status<red>, <white>/newbie remove"

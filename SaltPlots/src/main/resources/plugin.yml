@@ -1,0 +1,25 @@
+name: SaltPlots
+version: '${version}'
+main: com.saltysmp.saltplots.SaltPlotsPlugin
+api-version: '1.21'
+description: Player plot allocation and protection
+authors:
+  - SaltySMP
+softdepend:
+  - SaltCoins
+
+commands:
+  plot:
+    description: Plot commands
+    usage: /plot [help|home|hub|info|create|visit|private|public|add|remove|upgrade]
+    aliases:
+      - plots
+      - p
+
+permissions:
+  saltplots.admin:
+    description: Admin plot commands (sethub, setprice, reload)
+    default: op
+  saltplots.use:
+    description: Use plot commands
+    default: true

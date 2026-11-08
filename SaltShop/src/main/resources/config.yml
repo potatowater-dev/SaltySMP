@@ -1,0 +1,18 @@
+prefix: "<gray>[<light_purple>Shop<gray>] "
+
+villager:
+  no-ai: true
+  invulnerable: true
+  silent: false
+  level: 5
+  profession: NONE
+  type: PLAINS
+
+gui:
+  title: "<light_purple>{shop}"
+  border-material: PURPLE_STAINED_GLASS_PANE
+  trades-per-page: 28
+
+trade:
+  mode: MERCHANT
+  max-uses-default: 2147483647

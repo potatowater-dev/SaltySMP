@@ -1,0 +1,140 @@
+prefix: "<gray>[<gold>SaltMine<gray>] "
+
+
+
+no-permission: "{prefix}<red>You do not have permission."
+
+players-only: "{prefix}<red>Only players can use this."
+
+usage: "{prefix}<gray>Type <white>/mine help<gray> for setup steps."
+
+usage-admin: "{prefix}<gray>Admin: <white>/mine help"
+
+reload-success: "{prefix}<green>SaltMine reloaded. Reset timers restarted."
+
+
+
+help-header: "{prefix}<gold>Mine setup guide"
+
+help-line-1: "{prefix}<gray>1. <white>/mine wand<gray> — get selection axe"
+
+help-line-2: "{prefix}<gray>2. Left-click corner 1, right-click corner 2"
+
+help-line-3: "{prefix}<gray>3. <white>/mine create <id>"
+
+help-line-4: "{prefix}<gray>4. <white>/mine setregion <id>"
+
+help-line-5: "{prefix}<gray>5. <white>/mine addblock <id> <material> <weight>"
+
+help-line-6: "{prefix}<gray>6. Mines auto-reset on a timer — full region refill"
+
+help-line-7: "{prefix}<gray><white>/mine settime <minutes><gray> — set reset time for ALL mines"
+
+help-line-8: "{prefix}<gray><white>/mine settime <id> <minutes><gray> — set one mine's timer"
+
+help-line-9: "{prefix}<gray><white>/mine broadcast <id> <off|default|message><gray> — reset announcement"
+
+
+
+wand-given: "{prefix}<green>Mine wand given. Left-click = corner 1, right-click = corner 2. Then <white>/mine create <id><green>."
+
+wand-click-air: "{prefix}<red>Click a block face, not the air."
+
+pos1-set: "{prefix}<green>Corner 1 set <gray>(<white>{world}<gray>) <aqua>{x}<gray>, <aqua>{y}<gray>, <aqua>{z}"
+
+pos2-set: "{prefix}<green>Corner 2 set <gray>(<white>{world}<gray>) <aqua>{x}<gray>, <aqua>{y}<gray>, <aqua>{z}"
+
+pos-missing: "{prefix}<red>Set both corners with the mine wand first."
+
+pos-world-mismatch: "{prefix}<red>Both corners must be in the same world."
+
+
+
+mine-created: "{prefix}<green>Mine <aqua>{id}<green> created. Next: <white>/mine setregion {id}"
+
+mine-exists: "{prefix}<red>Mine already exists: <aqua>{id}"
+
+mine-not-found: "{prefix}<red>Mine not found: <aqua>{id}"
+
+mine-deleted: "{prefix}<green>Mine <aqua>{id}<green> deleted."
+
+region-set: "{prefix}<green>Region set for <aqua>{id}<green> (<aqua>{volume}<gray> blocks). Add blocks with <white>/mine addblock {id} STONE 50"
+
+region-missing: "{prefix}<red>Mine <aqua>{id}<red> has no region. Use <white>/mine wand<red> then <white>/mine setregion {id}"
+
+block-added: "{prefix}<green>Added <aqua>{material}<green> (weight <yellow>{weight}<green>) to <aqua>{id}<green>."
+
+invalid-material: "{prefix}<red>Unknown material <aqua>{material}<red>. Example: <white>STONE<red>, <white>COAL_ORE"
+
+invalid-weight: "{prefix}<red>Weight must be a positive number."
+
+invalid-id: "{prefix}<red>Invalid mine id. Use lowercase letters, numbers, underscores, hyphens."
+
+
+
+mine-list-header: "{prefix}<gold>Mines <gray>({count}):"
+
+mine-list-entry: "<gray>- <aqua>{id}<gray>: <white>{blocks} types, <white>{volume}"
+
+mine-list-empty: "{prefix}<gray>No mines yet. Start with <white>/mine help"
+
+
+
+mine-info-header: "{prefix}<gold>Mine <aqua>{id}"
+
+mine-info-world: "<gray>World: <white>{world}"
+
+mine-info-region: "<gray>Region: <white>{min} <gray>to <white>{max}"
+
+mine-info-volume: "<gray>Volume: <white>{volume}"
+
+mine-info-no-region: "<gray>Region: <red>not set <gray>(use /mine setregion)"
+
+mine-info-blocks: "<gray>Block palette:"
+
+mine-info-blocks-empty: "<gray>  <red>No blocks yet <gray>— use /mine addblock"
+
+mine-info-block-entry: "<gray>  - <aqua>{material}<gray>: weight <yellow>{weight}"
+
+mine-info-reset: "<gray>Auto-reset: every <white>{minutes}<gray> min <dark_gray>(announce: {announce})"
+
+mine-info-broadcast: "<gray>Broadcast: <white>{message}"
+
+
+
+settime-usage: "{prefix}<gray>Usage: <white>/mine settime <minutes><gray> or <white>/mine settime <id> <minutes>"
+
+settime-invalid: "{prefix}<red>Minutes must be a positive number."
+
+settime-all: "{prefix}<green>All mines now reset every <white>{minutes}<green> minutes."
+
+settime-mine: "{prefix}<green>Mine <aqua>{id}<green> now resets every <white>{minutes}<green> minutes."
+
+broadcast-usage: "{prefix}<gray>Usage: <white>/mine broadcast <id> <off|default|<gold>custom message>"
+
+broadcast-off: "{prefix}<yellow>Mine <aqua>{id}<yellow> will not announce resets."
+
+broadcast-default: "{prefix}<green>Mine <aqua>{id}<green> uses the default reset message."
+
+broadcast-set: "{prefix}<green>Mine <aqua>{id}<green> broadcast updated."
+
+
+
+regen-started: "{prefix}<green>Resetting mine <aqua>{id}<green>… <dark_gray>(full region)"
+
+reset-broadcast: "{prefix}<gold>The <aqua>{id}<gold> mine is resetting! <gray>(every {minutes}m)"
+
+reset-manual-broadcast: "{prefix}<gold>The <aqua>{id}<gold> mine is being reset by staff."
+
+capturing-broadcast: "{prefix}<gold>The <aqua>{id}<gold> mine is being captured!"
+
+regen-no-region: "{prefix}<red>Set a region first: <white>/mine setregion {id}"
+
+regen-no-blocks: "{prefix}<red>Add blocks first: <white>/mine addblock {id} STONE 50"
+
+
+
+mine-access-denied: "{prefix}<red>You cannot mine in <aqua>{id}<red>."
+
+break-outside-denied: "{prefix}<red>You can only break blocks inside designated mines."
+

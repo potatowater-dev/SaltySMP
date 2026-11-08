@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.potatowater.airreset.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "WindChargeItemMixin",
+    "AbstractWindChargeInvoker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

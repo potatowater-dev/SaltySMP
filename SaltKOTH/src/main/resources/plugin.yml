@@ -1,0 +1,26 @@
+name: SaltKOTH
+version: '${version}'
+main: com.saltysmp.saltkoth.SaltKothPlugin
+api-version: '1.21'
+description: Scheduled King of the Hill with zone UI, particles, and crate rewards
+authors:
+  - SaltySMP
+depend:
+  - SaltCrates
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  koth:
+    description: SaltKOTH commands
+    usage: /koth <pos1|pos2|setarea|start|stop|pause|status|info|top|tp|preview|hologram|reload>
+    aliases:
+      - saltkoth
+
+permissions:
+  saltkoth.admin:
+    description: Manage KOTH area and events
+    default: op
+  saltkoth.status:
+    description: View KOTH status and leaderboards
+    default: true

@@ -1,0 +1,26 @@
+name: SaltCoins
+version: '${version}'
+main: com.saltysmp.saltcoins.SaltCoinsPlugin
+api-version: '1.21'
+description: Coin currency and PvP rewards
+authors:
+  - SaltySMP
+
+commands:
+  coin:
+    description: Coin commands
+    usage: /coin <give|reload> [player] [amount]
+    aliases:
+      - killtoken
+      - kt
+  killtoken:
+    description: Coin commands (deprecated alias)
+    usage: /killtoken <give|reload> [player] [amount]
+
+permissions:
+  saltcoins.admin:
+    description: Give kill tokens and reload SaltCoins
+    default: op
+  saltcoins.token.receive:
+    description: Receive kill tokens on player kills
+    default: true

@@ -1,0 +1,27 @@
+name: SaltMine
+version: '${version}'
+main: com.saltysmp.saltmine.SaltMinePlugin
+api-version: '1.21'
+description: Weighted mine regions with async regeneration
+authors:
+  - SaltySMP
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  mine:
+    description: SaltMine commands
+    usage: /mine <wand|create|setregion|addblock|list|delete|info|regen|settime|broadcast|reload> [args]
+    aliases:
+      - saltmine
+
+permissions:
+  saltmine.admin:
+    description: Full SaltMine administration
+    default: op
+  saltmine.use.*:
+    description: Use any mine
+    default: true
+    children:
+      saltmine.use.example: true

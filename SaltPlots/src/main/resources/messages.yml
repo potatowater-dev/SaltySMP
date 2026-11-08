@@ -1,0 +1,149 @@
+prefix: "<gray>[<green>Plots<gray>] "
+
+
+
+usage: "{prefix}<gray>Type <white>/plot help<gray> for commands."
+
+help-header: "{prefix}<gold>Plot commands"
+
+help-line-1: "{prefix}<gray><white>/plot create<gray> — claim a plot <dark_gray>(in hub only)"
+
+help-line-2: "{prefix}<gray><white>/plot home<gray> — go to your plot <dark_gray>(from hub)"
+
+help-line-3: "{prefix}<gray><white>/plot hub<gray> — teleport to the plot hub"
+
+help-line-4: "{prefix}<gray><white>/plot visit <player><gray> — visit another player's plot"
+
+help-line-5: "{prefix}<gray><white>/plot info<gray> — size, privacy, upgrade cost"
+
+help-line-6: "{prefix}<gray><white>/plot private<gray> / <white>/plot public<gray> — visitor access"
+
+help-line-7: "{prefix}<gray><white>/plot add <player><gray> — trust for build & chests"
+
+help-line-8: "{prefix}<gray><white>/plot remove <player><gray> — remove trust"
+
+help-line-9: "{prefix}<gray><white>/plot upgrade<gray> — expand plot with kill tokens"
+
+admin-usage: "{prefix}<gray>Admin: <white>/plot sethub confirm<gray>, <white>/plot setprice <tier> <tokens>"
+
+
+
+players-only: "{prefix}<red>Players only."
+
+no-permission: "{prefix}<red>You do not have permission."
+
+no-permission-admin: "{prefix}<red>You do not have permission for admin commands."
+
+
+
+not-in-hub: "{prefix}<red>You must be at the <white>plot hub<red> for this. Use <white>/plot hub<red> to get there."
+
+hub-not-set: "{prefix}<red>Plots are not open yet — ask staff to set up the hub."
+
+hub-teleport: "{prefix}<green>Teleported to the plot hub."
+
+
+
+plot-created: "{prefix}<green>Your <white>{size}x{size}<green> plot is ready! A border keeps you on the platform. Visit others with <white>/plot visit <player><green>."
+
+already-has-plot: "{prefix}<red>You already own a plot. Use <white>/plot home<red> from the hub."
+
+no-plot: "{prefix}<red>You do not have a plot. Stand in the hub and run <white>/plot create<red>."
+
+teleported: "{prefix}<green>Welcome home!"
+
+
+
+visit-usage: "{prefix}<gray>Usage: <white>/plot visit <player>"
+
+visit-success: "{prefix}<green>Visiting <white>{player}<green>'s plot."
+
+visit-not-found: "{prefix}<red>Player <white>{player}<red> not found."
+
+visit-no-plot: "{prefix}<red><white>{player}<red> does not have a plot."
+
+visit-private: "{prefix}<red><white>{player}<red>'s plot is private. Ask them to add you or make it public."
+
+
+
+plot-info-header: "{prefix}<gold>Your plot"
+
+plot-info-size: "{prefix}<gray>Size: <white>{size}x{size}"
+
+plot-info-privacy: "{prefix}<gray>Privacy: <white>{privacy}"
+
+plot-info-trusted: "{prefix}<gray>Trusted players: <white>{count}"
+
+plot-info-upgrade: "{prefix}<gray>Next upgrade: <white>{size}x{size}<gray> for <gold>{cost}<gray> kill tokens <dark_gray>(you have {balance})"
+
+plot-info-max: "{prefix}<gray>Your plot is max size."
+
+
+
+privacy-private: "{prefix}<yellow>Plot is <white>private<yellow>. Only you and trusted players can visit with <white>/plot visit<yellow>."
+
+privacy-public: "{prefix}<yellow>Plot is <white>public<yellow>. Anyone can <white>/plot visit<yellow>, but only trusted players can build or open chests."
+
+privacy-hint: "{prefix}<gray>You cannot walk to other plots — use <white>/plot visit <player><gray>. Chests stay locked to strangers."
+
+
+
+trusted-added: "{prefix}<green>Trusted <white>{player}<green> — they can build, use chests, and visit if private."
+
+trusted-removed: "{prefix}<green>Removed <white>{player}<green> from your trusted list."
+
+trusted-already: "{prefix}<red><white>{player}<red> is already trusted."
+
+trusted-not-found: "{prefix}<red><white>{player}<red> is not on your trusted list."
+
+trusted-player-offline: "{prefix}<red><white>{player}<red> must be online to be trusted."
+
+cannot-trust-self: "{prefix}<red>You cannot trust yourself."
+
+
+
+upgrade-success: "{prefix}<green>Plot upgraded to <white>{size}x{size}<green>! Spent <gold>{cost}<green> kill tokens."
+
+upgrade-max: "{prefix}<red>Your plot is already at maximum size."
+
+upgrade-no-coins: "{prefix}<red>You need <gold>{cost}<red> kill tokens <gray>(you have {balance})<red>."
+
+coins-unavailable: "{prefix}<red>Upgrades are temporarily unavailable — ask staff."
+
+
+
+setprice-success: "{prefix}<green>Set tier <white>{tier}<green> upgrade cost to <white>{cost}<green> kill tokens."
+
+setprice-invalid-tier: "{prefix}<red>Invalid tier. Use 1-{max}."
+
+
+
+sethub-info: "{prefix}<gray>Use a <gold>golden hoe<gray>: left-click = corner 1, right-click = corner 2. Then <white>/plot sethub confirm<gray>."
+
+sethub-pos1: "{prefix}<green>Hub corner 1 set."
+
+sethub-pos2: "{prefix}<green>Hub corner 2 set."
+
+sethub-saved: "{prefix}<green>Plot hub saved. Players can use <white>/plot create<green> here."
+
+sethub-missing-selection: "{prefix}<red>Select both hub corners with the golden hoe first."
+
+
+
+reload-success: "{prefix}<green>SaltPlots reloaded."
+
+
+
+protection-build: "{prefix}<red>You cannot build on <white>{owner}<red>'s plot."
+
+protection-wilderness: "{prefix}<red>Unclaimed land — claim your own plot at the hub with <white>/plot create<red>."
+
+protection-interact: "{prefix}<red>You cannot open that — ask the owner to <white>/plot add <you><red>."
+
+protection-enter: "{prefix}<red>This plot is private. Ask the owner to add you or make it public."
+
+plot-edge-safety: "{prefix}<yellow>Stay on the plot! <gray>You were moved back to the center."
+
+
+
+plot-world-missing: "{prefix}<red>Plot world <white>{world}<red> is not loaded."

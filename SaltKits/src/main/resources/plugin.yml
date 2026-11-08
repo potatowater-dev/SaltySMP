@@ -1,0 +1,29 @@
+name: SaltKits
+version: '${version}'
+main: com.saltysmp.saltkits.SaltKitsPlugin
+api-version: '1.21'
+description: Custom kits with virtual GUI editor and claim menu
+softdepend:
+  - FrostFFA
+  - FrostCombat
+  - FrostCrates
+  - CratesPlus
+  - RecipeBlocker
+  - Skript
+  - GrimAC
+  - WorldGuard
+
+commands:
+  kit:
+    description: Kit management
+    usage: /kit [menu|create|edit|claim|preview|list|delete|clone|give|reload|cleanup|resetcooldown|...]
+    permission: saltkits.admin
+    permission-message: "<red>You do not have permission to use this command."
+
+permissions:
+  saltkits.admin:
+    description: Allows using /kit and managing kits
+    default: op
+  saltkits.claim:
+    description: Allows claiming kits and opening the kit menu
+    default: op

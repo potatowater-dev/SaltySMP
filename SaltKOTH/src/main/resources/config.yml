@@ -1,0 +1,38 @@
+delay-between-events-ms: 10800000
+event-duration-ms: 1800000
+minimum-win-seconds: 30
+crate-id: koth
+keys-per-win: 1
+tick-interval-ticks: 20
+broadcast-start: true
+broadcast-end: true
+leader-change-broadcast: true
+contested-action-bar: true
+titles-enabled: true
+capture-sound-enabled: false
+capture-sound: BLOCK_NOTE_BLOCK_PLING
+capture-broadcast-enabled: true
+capture-broadcast-interval-seconds: 15
+bossbar-enabled: true
+bossbar-zone-only: true
+hide-tab-in-zone: false
+
+border-particles:
+  enabled: true
+  active-only: false
+  spacing: 1
+  view-distance: 96
+  y-offset: 1.05
+  size: 1.5
+  count: 2
+  interval-ticks: 2
+  preview-seconds: 15
+  color:
+    red: 255
+    green: 0
+    blue: 0
+
+title-hologram:
+  text: "<red><bold>KOTH"
+  scale: 20.0
+  height: 3.0

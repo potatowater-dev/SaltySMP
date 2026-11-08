@@ -1,0 +1,20 @@
+plot-world: plotworld
+# Y level for the grass top of floating plot platforms
+platform-y: 200
+# When true, empty gap between plots = one max-sized plot (spacing = 2x max size)
+grid-gap-max-plot: true
+# Extra gap blocks (only used when grid-gap-max-plot is false)
+grid-gap: 0
+grid-row-length: 100
+# Bumped when plot data must reset — do not lower
+plot-data-version: 2
+# Plots start at the first tier (max starter size). Upgrade with kill tokens.
+tiers:
+  - size: 25
+    upgrade-cost: 0
+  - size: 30
+    upgrade-cost: 500
+  - size: 35
+    upgrade-cost: 1500
+  - size: 40
+    upgrade-cost: 3000

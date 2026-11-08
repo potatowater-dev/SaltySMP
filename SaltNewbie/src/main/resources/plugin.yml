@@ -1,0 +1,17 @@
+name: SaltNewbie
+version: '${version}'
+main: com.saltysmp.saltnewbie.SaltNewbiePlugin
+api-version: '1.21'
+description: Newbie protection and pickup rules
+authors:
+  - SaltySMP
+
+commands:
+  newbie:
+    description: Newbie protection commands
+    usage: /newbie [status|remove]
+
+permissions:
+  saltnewbie.use:
+    description: Activate and manage newbie protection
+    default: true

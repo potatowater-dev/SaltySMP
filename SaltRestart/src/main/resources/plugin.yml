@@ -1,0 +1,20 @@
+name: SaltRestart
+version: '${version}'
+main: com.saltysmp.saltrestart.SaltRestartPlugin
+api-version: '1.21'
+description: Scheduled server restarts with countdown reminders
+authors:
+  - SaltySMP
+
+commands:
+  saltrestart:
+    description: Schedule, cancel, or check a server restart
+    usage: /saltrestart <duration|cancel|status|now>
+    aliases:
+      - sr
+      - srestart
+
+permissions:
+  saltrestart.admin:
+    description: Schedule and cancel server restarts
+    default: op

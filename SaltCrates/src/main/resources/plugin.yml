@@ -1,0 +1,30 @@
+name: SaltCrates
+version: '${version}'
+main: com.saltysmp.saltcrates.SaltCratesPlugin
+api-version: '1.21'
+description: Virtual-key crate system with colored shulker boxes and holograms
+authors:
+  - SaltySMP
+softdepend:
+  - LuckPerms
+
+commands:
+  crate:
+    description: SaltCrates commands
+    usage: /crate <claim|keys|create|wand|block|delete|reload|respawn|list>
+    aliases:
+      - crates
+
+permissions:
+  saltcrates.open:
+    description: Open and preview crates
+    default: true
+  saltcrates.admin:
+    description: Manage crate definitions, keys, and placements
+    default: op
+  saltcrates.skip-animation:
+    description: Skip crate opening animation
+    default: false
+  saltcrates.cooldown.bypass:
+    description: Bypass crate open cooldowns
+    default: op

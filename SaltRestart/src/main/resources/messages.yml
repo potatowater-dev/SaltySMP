@@ -1,0 +1,12 @@
+prefix: "<gray>[<gold>SaltRestart<gray>] <dark_gray>: "
+
+scheduled: "{prefix}<white>Server restart in <yellow>{time}<white>."
+reminder: "{prefix}<white>Server restart in <yellow>{time}<white>."
+cancelled: "{prefix}<green>Scheduled restart cancelled."
+status: "{prefix}<white>Server restart in <yellow>{time}<white>."
+no-schedule: "{prefix}<red>No restart is currently scheduled."
+already-scheduled: "{prefix}<red>A restart is already scheduled (<yellow>{time}<red> left). Cancel it first."
+invalid-duration: "{prefix}<red>Invalid duration. Examples: <white>5s<red>, <white>10m<red>, <white>1h"
+restarting: "{prefix}<red>Restarting now..."
+usage: "{prefix}<red>Usage: <white>/saltrestart <duration|cancel|status|now>"
+no-permission: "{prefix}<red>You do not have permission."

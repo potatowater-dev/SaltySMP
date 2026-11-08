@@ -1,0 +1,52 @@
+prefix: "<gray>[<gold>Coins<gray>] "
+
+
+
+coin:
+
+  material: SNOWBALL
+
+  display-name: "<gold><bold>Coin"
+
+  glint: true
+
+  max-stack: 64
+
+  use-cooldown-seconds: 999999
+
+  use-cooldown-group: snowball
+
+  lore: []
+
+
+
+on-kill:
+
+  enabled: true
+
+  amount: 1
+
+  notify: true
+
+  notify-actionbar: true
+
+  ignored-worlds: []
+
+  require-permission: false
+
+  override-keep-inventory: true
+
+
+
+armor-coins:
+
+  enabled: true
+
+  diamond-protection-min: 4
+
+  diamond-coins-per-piece: 1
+
+  netherite-protection-min: 5
+
+  netherite-coins-per-piece: 3
+

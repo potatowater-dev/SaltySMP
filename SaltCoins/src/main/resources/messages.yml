@@ -1,0 +1,26 @@
+prefix: "<gray>[<gold>Coins<gray>] "
+
+
+
+token-received: "{prefix}<green>✓ <white>You received <yellow>{amount}<white> coin(s)!"
+
+token-received-actionbar: "<gold>+{amount} Coin"
+
+token-looted: "{prefix}<green>✓ <white>You received <yellow>{amount}<white> coin(s) <gray>(<white>{base}<gray> kill + <white>{armor}<gray> armor + <white>{carried}<gray> looted)!"
+
+token-given-self: "{prefix}<green>✓ <white>Gave yourself <yellow>{amount}<white> coin(s)."
+
+token-given-other: "{prefix}<green>✓ <white>Gave <yellow>{amount}<white> coin(s) to <aqua>{player}<white>."
+
+reload-success: "{prefix}<green>✓ <white>SaltCoins reloaded."
+
+no-permission: "{prefix}<red>✗ <white>You do not have permission."
+
+players-only: "{prefix}<red>✗ <white>Only players can use this."
+
+player-not-found: "{prefix}<red>✗ <white>Player not found: <aqua>{player}"
+
+invalid-number: "{prefix}<red>✗ <white>Invalid number."
+
+usage-give: "{prefix}<red>Usage: <white>/coin give [player] [amount]"
+

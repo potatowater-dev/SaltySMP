@@ -1,0 +1,24 @@
+name: SaltShop
+version: '${version}'
+main: com.saltysmp.saltshop.SaltShopPlugin
+api-version: '1.21'
+description: Villager shops with custom trades and GUI
+authors:
+  - SaltySMP
+softdepend:
+  - SaltCoins
+
+commands:
+  shop:
+    description: SaltShop commands
+    usage: /shop <create|delete|list|spawn|remove|editor|reload> [id]
+    aliases:
+      - saltshop
+
+permissions:
+  saltshop.admin:
+    description: Manage shops and spawn shop villagers
+    default: op
+  saltshop.use:
+    description: Trade with shop villagers
+    default: true

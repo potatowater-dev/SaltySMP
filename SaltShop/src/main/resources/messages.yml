@@ -1,0 +1,78 @@
+prefix: "<gray>[<light_purple>Shop<gray>] "
+
+
+
+no-permission: "{prefix}<red>You cannot use this shop."
+
+player-only: "{prefix}<red>Players only."
+
+unknown-shop: "{prefix}<red>Unknown shop <white>{shop}<red>."
+
+shop-created: "{prefix}<green>Created shop <white>{shop}<green>. Next: <white>/shop spawn {shop}<green> then <white>/shop editor {shop}"
+
+shop-deleted: "{prefix}<green>Deleted shop <white>{shop}<green>."
+
+shop-exists: "{prefix}<red>Shop <white>{shop} <red>already exists."
+
+shop-spawned: "{prefix}<green>Spawned shop villager for <white>{shop}<green>. Right-click it to trade."
+
+shop-removed: "{prefix}<green>Removed shop villager."
+
+shop-reloaded: "{prefix}<green>SaltShop reloaded."
+
+no-target: "{prefix}<red>Look directly at a shop villager within 5 blocks."
+
+no-target-not-shop: "{prefix}<red>That villager is not a shop NPC."
+
+shop-list-empty: "{prefix}<gray>No shops configured. Use <white>/shop create <id>"
+
+shop-list: "{prefix}<gray>Shops: <white>{shops}"
+
+
+
+trade-success: "{prefix}<green>Purchased <white>{item}<green>!"
+
+trade-fail-cost: "{prefix}<red>You need <white>{cost}<red> to buy this."
+
+trade-fail-space: "{prefix}<red>Your inventory is full."
+
+browse-empty: "{prefix}<gray>This shop has no trades yet."
+
+
+
+editor-saved: "{prefix}<green>Shop <white>{shop} <green>saved and villagers updated."
+
+editor-trade-added: "{prefix}<green>Trade added — set the price below, then click <white>Save Trade<green>."
+
+editor-trade-removed: "{prefix}<yellow>Trade removed."
+
+editor-trade-saved: "{prefix}<green>Trade saved."
+
+editor-need-item: "{prefix}<red>Hold the <white>reward item<red> in your main hand, then click Add Trade."
+
+editor-need-result: "{prefix}<red>Place the <white>reward<red> in the <gold>Reward<red> slot before saving."
+
+editor-need-cost: "{prefix}<red>Add at least one cost: <gold>coins<red> or an <white>item<red>."
+
+editor-invalid-coin-slot: "{prefix}<red>Slot <gold>Coin Price<red> only accepts Coin items."
+
+editor-items-returned: "{prefix}<gray>Unsaved trade items returned to your inventory."
+
+
+
+usage: "{prefix}<gray>Usage: <white>/shop help"
+
+help-header: "{prefix}<gold>Shop admin guide"
+
+help-line-1: "{prefix}<gray>1. <white>/shop create <id>"
+
+help-line-2: "{prefix}<gray>2. <white>/shop spawn <id> <gray>— place villager NPC"
+
+help-line-3: "{prefix}<gray>3. <white>/shop editor <id> <gray>— add trades & villager look"
+
+help-line-4: "{prefix}<gray>4. Players <white>right-click<gray> the villager to trade"
+
+help-line-5: "{prefix}<gray><white>/shop removenpc<gray> — remove villager you're looking at"
+
+help-line-6: "{prefix}<gray><white>/shop delete <id><gray> — delete shop file"
+

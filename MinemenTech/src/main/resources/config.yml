@@ -1,0 +1,14 @@
+enabled: true
+min-pitch: 80
+required-downward-velocity: 0.8
+record-duration-ticks: 20
+spawn-below-feet: 1.2
+rise-speed: 1.5
+descent-spawn-height: 1.6
+descent-speed: 1.25
+hit-proximity: 1.0
+rise-overshoot: 0.35
+post-reset-guard-ticks: 8
+post-reset-max-downward-velocity: 0.55
+session-timeout-ticks: 20
+debug: false

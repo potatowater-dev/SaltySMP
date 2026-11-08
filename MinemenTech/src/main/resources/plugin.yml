@@ -1,0 +1,18 @@
+name: AirReset
+version: '${version}'
+main: com.saltysmp.airreset.AirResetPlugin
+api-version: '1.21'
+description: Wind-charge fall reset that cancels momentum while preserving smash fall state
+author: _potatowater
+
+commands:
+  airreset:
+    description: AirReset admin commands
+    usage: /<command> reload | record <player> | setvelocity <value>
+    aliases: [ar]
+    permission: airreset.admin
+
+permissions:
+  airreset.admin:
+    description: Allows managing AirReset config
+    default: op
